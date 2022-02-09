@@ -4,7 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["Anonymous Pro", "sans-serif"],
+      },
+      colors: {
+        fallout: "#24FF00",
+      },
+    },
   },
   plugins: [],
-}
+};
