@@ -7,64 +7,6 @@ import { Tabs } from "../components/tabs";
 import { InventoryItem } from "../components/InventoryItem";
 import { InventoryList } from "../components/InventoryList";
 
-const items = [
-  {
-    cloneId: 1,
-    cloneName: "Clone #1",
-    cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-    cloneDescription:
-      "Some description Some description Some description Some description",
-    cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
-  },
-  {
-    cloneId: 2,
-    cloneName: "Clone #2",
-    cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-    cloneDescription:
-      "Some description Some description Some description Some description",
-    cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
-  },
-  {
-    cloneId: 3,
-    cloneName: "Clone #3",
-    cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-    cloneDescription:
-      "Some description Some description Some description Some description",
-    cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
-  },
-  {
-    cloneId: 4,
-    cloneName: "Clone #4",
-    cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-    cloneDescription:
-      "Some description Some description Some description Some description",
-    cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
-  },
-  {
-    cloneId: 5,
-    cloneName: "Clone #5",
-    cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-    cloneDescription:
-      "Some description Some description Some description Some description",
-    cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
-  },
-  {
-    cloneId: 6,
-    cloneName: "Clone #6",
-    cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-    cloneDescription:
-      "Some description Some description Some description Some description",
-    cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
-  },
-  {
-    cloneId: 7,
-    cloneName: "Clone #7",
-    cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-    cloneDescription:
-      "Some description Some description Some description Some description",
-    cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
-  },
-];
 // const suka = {
 //   cloneId: 1,
 //   cloneName: "Clone #1",
@@ -127,7 +69,7 @@ const Home: NextPage = () => {
         {/*    </p>*/}
         {/*  </a>*/}
         {/*</div>*/}
-        <InventoryList list={items} title={"Heroes"}></InventoryList>
+        <Tabs></Tabs>
       </main>
 
       <footer className={styles.footer}>

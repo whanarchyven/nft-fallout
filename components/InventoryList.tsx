@@ -16,12 +16,12 @@ export const InventoryList = ({ list, title }: propsTestComponent) => {
   return (
     <div
       className={
-        "mx-6 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-3 mt-10"
+        "mx-6 grid grid-cols-2 gap-6 md:grid-cols-3 h-[525px] lg:grid-cols-3 mt-10 scrollbar-thin scrollbar-thumb-fallout pr-20 pb-20  scrollbar-track-transparent overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full"
       }
     >
       <h2
         className={
-          "text-fallout space-x-2 mt-10 font-bold text-5xl absolute ml-16 top-0 left-0"
+          "text-fallout space-x-2 mt-10 font-bold text-5xl absolute ml-16 top-[-32px] left-16 animate-pulse"
         }
       >
         {title}
