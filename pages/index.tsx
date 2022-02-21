@@ -25,51 +25,33 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://allfont.ru/allfont.css?fonts=a_machinaorto"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <link
+          href="https://allfont.ru/allfont.css?fonts=a_machinaortosht"
+          rel="stylesheet"
+          type="text/css"
+        />
       </Head>
 
       <main className={styles.main}>
-        {/*<h1 className={"text-red-500"}>*/}
-        {/*  Welcome to <a href="https://nextjs.org">Next.js!</a>*/}
-        {/*</h1>*/}
-        {/*<TestComponent someVar={"ALOOO"}>*/}
-        {/*  <p>123546</p>*/}
-        {/*</TestComponent>*/}
-        {/*<Tabs />*/}
-        {/*<p className={styles.description}>*/}
-        {/*  Get started by editing{" "}*/}
-        {/*  <code className={styles.code}>pages/index.tsx</code>*/}
-        {/*</p>*/}
-
-        {/*<div className={styles.grid}>*/}
-        {/*  <a href="https://nextjs.org/docs" className={styles.card}>*/}
-        {/*    <h2>Documentation &rarr;</h2>*/}
-        {/*    <p>Find in-depth information about Next.js features and API.</p>*/}
-        {/*  </a>*/}
-
-        {/*  <a href="https://nextjs.org/learn" className={styles.card}>*/}
-        {/*    <h2>Learn &rarr;</h2>*/}
-        {/*    <p>Learn about Next.js in an interactive course with quizzes!</p>*/}
-        {/*  </a>*/}
-
-        {/*  <a*/}
-        {/*    href="https://github.com/vercel/next.js/tree/canary/examples"*/}
-        {/*    className={styles.card}*/}
-        {/*  >*/}
-        {/*    <h2>Examples &rarr;</h2>*/}
-        {/*    <p>Discover and deploy boilerplate example Next.js projects.</p>*/}
-        {/*  </a>*/}
-
-        {/*  <a*/}
-        {/*    href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"*/}
-        {/*    className={styles.card}*/}
-        {/*  >*/}
-        {/*    <h2>Deploy &rarr;</h2>*/}
-        {/*    <p>*/}
-        {/*      Instantly deploy your Next.js site to a public URL with Vercel.*/}
-        {/*    </p>*/}
-        {/*  </a>*/}
-        {/*</div>*/}
-        <Tabs></Tabs>
+        <div
+          className={
+            "fixed items-center bg-cover h-[100vh] bg-center bg-no-repeat bg-[url('../public/mobilekpk.png')] sm:bg-[url('../public/pipboy.png')] sm:fixed sm:items-center sm:bg-no-repeat sm:h-[660px] sm:w-[1000px] sm:bg-auto   "
+          }
+        >
+          <div
+            className={
+              "mt-[100px] ml-auto mr-auto w-[85%]  sm:h-[381px] sm:w-[510px] sm:mr-0 sm:ml-[320px]"
+            }
+          >
+            <Tabs></Tabs>
+          </div>
+        </div>
+        {/*<Tabs></Tabs>*/}
       </main>
 
       <footer className={styles.footer}>

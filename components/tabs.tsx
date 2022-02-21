@@ -14,7 +14,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 2,
@@ -22,7 +26,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 3,
@@ -30,7 +38,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 4,
@@ -38,7 +50,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 5,
@@ -46,7 +62,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 6,
@@ -54,7 +74,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 7,
@@ -62,7 +86,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
   ];
   const weaponsItems = [
@@ -72,7 +100,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 2,
@@ -80,7 +112,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 3,
@@ -88,7 +124,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 4,
@@ -96,7 +136,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 5,
@@ -104,7 +148,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 6,
@@ -112,7 +160,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 7,
@@ -120,7 +172,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
   ];
   const ArmoryItems = [
@@ -130,7 +186,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 2,
@@ -138,7 +198,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 3,
@@ -146,7 +210,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 4,
@@ -154,7 +222,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 5,
@@ -162,7 +234,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 6,
@@ -170,7 +246,11 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
     {
       cloneId: 7,
@@ -178,12 +258,16 @@ export const Tabs = () => {
       cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
       cloneDescription:
         "Some description Some description Some description Some description",
-      cloneStats: [{ stat1: "30" }, { stat2: "22" }, { stat3: "111" }],
+      cloneStats: {
+        health: 30,
+        damage: 22,
+        speed: 40,
+      },
     },
   ];
   return (
-    <div>
-      <div className={"border-fallout border-2 rounded-xl "}>
+    <div className={"h-[inherit]"}>
+      <div className={"border-fallout border-2 rounded-xl h-[inherit] "}>
         {currentTab === "Heroes" && (
           <InventoryList list={heroesItems} title={"Heroes"}></InventoryList>
         )}
@@ -194,16 +278,26 @@ export const Tabs = () => {
           <InventoryList list={ArmoryItems} title={"Armory"}></InventoryList>
         )}
       </div>
-      <div className={"flex mt-5 mb-5 justify-around"}>
+      <div
+        className={
+          "sm:w-[375px] sm:p-[20px] h-[197px] mx-auto flex sm:mt-5 sm:mb-5 justify-around sm:bg-[url('../public/tubbuttn.png')]"
+        }
+      >
         {tabsConfig.map((item) => (
           <div key={item.title}>
-            <p className={"text-fallout uppercase text-center"}>{item.title}</p>
+            <p
+              className={
+                "text-fallout text font-bold uppercase text-center mt-[10px]"
+              }
+            >
+              {item.title}
+            </p>
             <div
               onClick={() => setCurrentTab(item.title)}
               className={
                 currentTab === item.title
-                  ? "border-yellow-500 h-[70px] w-[70px] border-2  rounded-full bg-[#FDFC72] "
-                  : "border-fallout h-[70px] w-[70px] border-2 rounded-full bg-[#834F2E] hover:bg-[#A5A447]"
+                  ? " h-[65px] w-[65px]   rounded-full bg-[url('../public/activebut.png')] "
+                  : " h-[65px] w-[65px]  rounded-full bg-[url('../public/passivebut.png')]"
               }
             ></div>
           </div>
