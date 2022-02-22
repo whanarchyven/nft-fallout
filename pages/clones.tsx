@@ -187,69 +187,67 @@ const Home: NextPage = () => {
       </main>
       <Navbar></Navbar>
 
-      <div className={""}>
-        <img
-          className={
-            "absolute top-[50px] w-full sm:h-[433.53px] sm:top-[202px]"
-          }
-          src={"https://i.ibb.co/34JJDF0/Group-57.png"}
-        />
+      <div className={"absolute top-[50px] w-full sm:h-[50vh] sm:top-[12%]"}>
+        <Image src={"/clonningBack.png"} layout={"fill"} />
       </div>
-      <div
-        className={
-          "absolute left-[10%] right-[10%] w-[80%] top-[50%] sm:w-auto sm:left-[893px] sm:top-[592px]"
-        }
-      >
-        <Fallbutton title={"MINT"}></Fallbutton>
-      </div>
-      <h2
-        className={
-          "absolute text-[70px] top-[170px] left-auto w-full text-center font-before z-[10] normal text-up sm:w-auto  sm:text-left sm:text-[104.58px] sm:left-[784px] sm:top-[136px]"
-        }
-      >
-        CLONNING
-      </h2>
-      <h2
-        className={
-          "absolute text-[70px] top-[170px] left-auto w-full text-center font-before z-[9] font-bold sm:w-auto  sm:text-left  text-under sm:text-[104.008px] sm:left-[785px] sm:top-[136px]"
-        }
-      >
-        CLONNING
-      </h2>
 
       <div>
-        <h2
+        <div
           className={
-            "absolute text-[70px] top-[250px] w-full text-center sm:w-auto sm:text-left left-auto w-full text-center font-before z-[10] text-up sm:text-[104.58px] sm:left-[885px] sm:top-[233px]"
+            "absolute left-[10%] right-[10%] w-[80%] h-[70px] top-[42%] sm:w-[30%] sm:right-[5%] sm:left-auto sm:top-[70%] sm:h-[10vh]"
           }
         >
-          CENTER
+          <Fallbutton title={"MINT"}></Fallbutton>
+        </div>
+        <h2
+          className={
+            "absolute text-[70px] top-[115px] left-auto w-full text-center font-before z-[10] normal text-up sm:w-auto  sm:text-left sm:text-[8vw] sm:right-[17%] sm:top-[15%]"
+          }
+        >
+          CLONNING
         </h2>
         <h2
           className={
-            "absolute text-[70px] top-[250px] w-full text-center sm:w-auto sm:text-left left-auto w-full text-center font-before z-[9] font-bold  text-under sm:text-[104.58px] sm:left-[885px] sm:top-[233px]"
+            "absolute text-[70px] top-[115px] left-auto w-full text-center font-before z-[9] font-bold sm:w-auto  sm:text-left  text-under sm:text-[8vw] sm:right-[17%] sm:top-[15%]"
           }
         >
-          CENTER
+          CLONNING
         </h2>
-      </div>
 
-      <p
-        className={
-          "text-center line-through-[118%] w-[90%] left-[5%] right-[5%]  text-[15px] sm:text-left absolute font-spartan font-normal sm:text-[26.398px] text-[#E5E5E5] sm:w-[725px] h-[94px ] sm:left-[309px] top-[402px]"
-        }
-      >
-        The only module of the city where order and cleanliness reign. The law
-        here is represented by automatic turrets and power grabs for
-        trespassers.
-      </p>
-      <p
-        className={
-          "text-center line-through-[118%] w-[90%] left-[5%] right-[5%]  text-[15px] sm:text-left absolute font-spartan font-[600] sm:text-[26.398px] text-[#E5E5E5] sm:w-[565px] h-[56px ] sm:left-[315px] top-[528px]"
-        }
-      >
-        Activate a clone and start conquering the radioactive wasteland
-      </p>
+        <div>
+          <h2
+            className={
+              "absolute text-[70px] top-[180px] w-full text-center sm:w-auto sm:text-left left-auto w-full text-center font-before z-[10] text-up sm:text-[8vw] sm:right-[17%] sm:top-[34%]"
+            }
+          >
+            CENTER
+          </h2>
+          <h2
+            className={
+              "absolute text-[70px] top-[180px] w-full text-center sm:w-auto sm:text-left left-auto w-full text-center font-before z-[9] font-bold  text-under sm:text-[8vw] sm:right-[17%] sm:top-[34%]"
+            }
+          >
+            CENTER
+          </h2>
+        </div>
+
+        <p
+          className={
+            "text-center top-[60%] line-through-[118%] w-[90%] left-[5%] right-[5%]  text-[15px] sm:text-left absolute font-spartan font-normal sm:text-[1.8vw] text-[#E5E5E5] sm:w-[50%] h-[94px ] sm:left-[10%] sm:top-[45%]"
+          }
+        >
+          The only module of the city where order and cleanliness reign. The law
+          here is represented by automatic turrets and power grabs for
+          trespassers.
+        </p>
+        <p
+          className={
+            "text-center top-[80%] line-through-[118%] w-[90%] left-[5%] right-[5%]  text-[15px] sm:text-left absolute font-spartan font-[600] sm:text-[1.8vw] text-[#E5E5E5] sm:w-[50%] h-[56px ] sm:left-[10%] sm:top-[65%]"
+          }
+        >
+          Activate a clone and start conquering the radioactive wasteland
+        </p>
+      </div>
 
       <footer className={styles.footer}>
         <a

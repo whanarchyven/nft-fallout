@@ -8,22 +8,21 @@ interface propsTestComponent {
 export const InventoryButton = ({ title }: propsTestComponent) => {
   return (
     <div className={"h-[40px] relative sm:h-[50px] sm:w-auto"}>
-      <img
-        src={"https://i.ibb.co/DY7CDQB/32x32-buildings-furnitures.png"}
-        alt={"gayka"}
+      <div
         className={
           "inline-block h-[33px] w-[12px] absolute top-[6px]  sm:h-[33px] sm:w-[12px] left-[-5px]"
         }
-        width={"12px"}
-        height={"33px"}
-      />
-      <img
-        src={"https://i.ibb.co/DY7CDQB/32x32-buildings-furnitures.png"}
-        alt={"gayka"}
+      >
+        <Image src={"/inventoryButtonPic.png"} alt={"gayka"} layout={"fill"} />
+      </div>
+
+      <div
         className={
           "inline-block h-[33px] w-[12px] absolute top-[6px] rotate-180 sm:h-[33px] sm:w-[12px] right-[-5px]"
         }
-      />
+      >
+        <Image src={"/inventoryButtonPic.png"} alt={"gayka"} layout={"fill"} />
+      </div>
 
       <button
         className={
