@@ -17,7 +17,7 @@ export const Popup = ({ item, handleClose }: propsTestComponent) => {
     <div className="absolute w-[320px] h-[481px] left-[50%] right-[50%] ml-[-160px]  sm:h-[381px] sm:w-[510px] sm:ml-0 top-[100px] sm:left-[320px] bg-black z-50 border-fallout border-2 rounded-xl p-2 ">
       <div className="">
         <span
-          className="text-fallout font-bold text-2xl right-0 ml-[95%]"
+          className="text-fallout cursor-pointer font-bold text-2xl right-0 ml-[95%]"
           onClick={handleClose}
         >
           x

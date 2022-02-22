@@ -7,13 +7,6 @@ import { Tabs } from "../components/tabs";
 import { InventoryItem } from "../components/InventoryItem";
 import { InventoryList } from "../components/InventoryList";
 
-// const suka = {
-//   cloneId: 1,
-//   cloneName: "Clone #1",
-//   cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-//   cloneDescription: "ALO ALO ALO ALO ALO ALO ALO ALO ALO ALO ALO ALO",
-//   cloneStats: [{ stat1: "25", stat2: "25", stat3: "25" }],
-// };
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -37,22 +30,7 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <main className={styles.main}>
-        <div
-          className={
-            "fixed items-center bg-cover h-[100vh] bg-center bg-no-repeat bg-[url('../public/mobilekpk.png')] sm:bg-[url('../public/pipboy.png')] sm:fixed sm:items-center sm:bg-no-repeat sm:h-[660px] sm:w-[1000px] sm:bg-auto   "
-          }
-        >
-          <div
-            className={
-              "mt-[100px] ml-auto mr-auto w-[85%]  sm:h-[381px] sm:w-[510px] sm:mr-0 sm:ml-[320px]"
-            }
-          >
-            <Tabs></Tabs>
-          </div>
-        </div>
-        {/*<Tabs></Tabs>*/}
-      </main>
+      <main className={styles.main}>AUE</main>
 
       <footer className={styles.footer}>
         <a

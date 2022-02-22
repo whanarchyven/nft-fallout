@@ -8,13 +8,27 @@ import { InventoryItem } from "../components/InventoryItem";
 import { InventoryList } from "../components/InventoryList";
 import { Fallbutton } from "../components/fallbutton";
 
-// const suka = {
-//   cloneId: 1,
-//   cloneName: "Clone #1",
-//   cloneImage: "https://i.ibb.co/bQYm5Lv/clone.png",
-//   cloneDescription: "ALO ALO ALO ALO ALO ALO ALO ALO ALO ALO ALO ALO",
-//   cloneStats: [{ stat1: "25", stat2: "25", stat3: "25" }],
-// };
+// @ts-ignore
+import styled, { keyframes } from "styled-components";
+import {
+  bounce,
+  fadeIn,
+  fadeInDown,
+  fadeInUp,
+  fadeInLeft,
+  fadeInDownBig,
+} from "react-animations";
+// @ts-ignore
+import { render } from "react-dom";
+import { Navbar } from "../components/Navbar";
+
+const FadeIn = styled.div`
+  animation: infinite 2s ${keyframes`${fadeInLeft}`};
+  width: 20%;
+  position: absolute;
+  top: 0;
+`;
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -43,46 +57,57 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}></main>
+      <Navbar></Navbar>
       <div className={""}>
         <img
-          className={"absolute w-full h-[433.53px] top-[202px]"}
+          className={
+            "absolute top-[50px] w-full sm:h-[433.53px] sm:top-[202px]"
+          }
           src={"https://i.ibb.co/34JJDF0/Group-57.png"}
         />
       </div>
-      <div className={"absolute left-[893px] top-[592px]"}>
-        <Fallbutton width={200} height={50} title={"MINT"}></Fallbutton>
+      <div
+        className={
+          "absolute left-[10%] right-[10%] w-[80%] top-[50%] sm:w-auto sm:left-[893px] sm:top-[592px]"
+        }
+      >
+        <Fallbutton title={"MINT"}></Fallbutton>
       </div>
       <h2
         className={
-          "absolute font-before z-[10] normal text-up text-[104.58px] left-[784px] top-[136px]"
+          "absolute text-[70px] top-[170px] left-auto w-full text-center font-before z-[10] normal text-up sm:w-auto  sm:text-left sm:text-[104.58px] sm:left-[784px] sm:top-[136px]"
         }
       >
         CLONNING
       </h2>
       <h2
         className={
-          "absolute font-before z-[9] font-bold  text-under text-[104.008px] left-[785px] top-[136px]"
+          "absolute text-[70px] top-[170px] left-auto w-full text-center font-before z-[9] font-bold sm:w-auto  sm:text-left  text-under sm:text-[104.008px] sm:left-[785px] sm:top-[136px]"
         }
       >
         CLONNING
       </h2>
-      <h2
-        className={
-          "absolute font-before z-[10] text-up text-[104.58px] left-[885px] top-[233px]"
-        }
-      >
-        CENTER
-      </h2>
-      <h2
-        className={
-          "absolute font-before z-[9] font-bold  text-under text-[104.58px] left-[885px] top-[233px]"
-        }
-      >
-        CENTER
-      </h2>
+
+      <div>
+        <h2
+          className={
+            "absolute text-[70px] top-[250px] w-full text-center sm:w-auto sm:text-left left-auto w-full text-center font-before z-[10] text-up sm:text-[104.58px] sm:left-[885px] sm:top-[233px]"
+          }
+        >
+          CENTER
+        </h2>
+        <h2
+          className={
+            "absolute text-[70px] top-[250px] w-full text-center sm:w-auto sm:text-left left-auto w-full text-center font-before z-[9] font-bold  text-under sm:text-[104.58px] sm:left-[885px] sm:top-[233px]"
+          }
+        >
+          CENTER
+        </h2>
+      </div>
+
       <p
         className={
-          "line-through-[118%] text-align-left absolute font-spartan font-normal text-[26.398px] text-[#E5E5E5] w-[725px] h-[94px ] left-[309px] top-[402px]"
+          "text-center line-through-[118%] w-[90%] left-[5%] right-[5%]  text-[15px] sm:text-left absolute font-spartan font-normal sm:text-[26.398px] text-[#E5E5E5] sm:w-[725px] h-[94px ] sm:left-[309px] top-[402px]"
         }
       >
         The only module of the city where order and cleanliness reign. The law
@@ -91,11 +116,12 @@ const Home: NextPage = () => {
       </p>
       <p
         className={
-          "line-through-[118%] text-align-left absolute font-spartan font-[600] text-[26.398px] text-[#E5E5E5] w-[565px] h-[56px ] left-[315px] top-[528px]"
+          "text-center line-through-[118%] w-[90%] left-[5%] right-[5%]  text-[15px] sm:text-left absolute font-spartan font-[600] sm:text-[26.398px] text-[#E5E5E5] sm:w-[565px] h-[56px ] sm:left-[315px] top-[528px]"
         }
       >
         Activate a clone and start conquering the radioactive wasteland
       </p>
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
