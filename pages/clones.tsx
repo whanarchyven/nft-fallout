@@ -188,7 +188,7 @@ const Home: NextPage = () => {
       <Navbar></Navbar>
 
       <div className={""}>
-        <img
+        <Image
           className={
             "absolute top-[50px] w-full sm:h-[433.53px] sm:top-[202px]"
           }

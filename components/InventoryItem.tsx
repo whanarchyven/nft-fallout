@@ -1,5 +1,6 @@
 import { ReactNode, useState } from "react";
 import { Popup } from "./Popup";
+import Image from "next/image";
 interface propsTestComponent {
   item: {
     cloneId: number;
@@ -30,7 +31,7 @@ export const InventoryItem = ({ item }: propsTestComponent) => {
       }
     >
       <div className={"m-auto sm:max-h-118 w-4/5 max-h-[140px]  sm:w-1/2 "}>
-        <img src={item.cloneImage} className={"w-fit"}></img>
+        <Image src={item.cloneImage} className={"w-fit"}></Image>
       </div>
       <h2
         className={

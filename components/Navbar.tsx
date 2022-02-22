@@ -7,6 +7,7 @@ import { PipBoy } from "./PipBoy";
 import { slide as Menu } from "react-burger-menu";
 import styles from "../styles/Home.module.css";
 import bm from "../styles/bm.module.css";
+import Image from "next/image";
 export const Navbar = () => {
   const [isInventoryOpen, setIsOpen] = useState(false);
 
@@ -17,7 +18,7 @@ export const Navbar = () => {
     <div className={"hidden sm:block"}>
       <div className="h-full w-full font-after h-[100px] bg-[#4A545E] fixed top-0 z-40">
         <div className={"h-full w-[20%] align-middle  inline-block"}>
-          <img
+          <Image
             src={"https://i.ibb.co/bFYVWmp/Group-59.png"}
             className={"pt-[7%] m-auto"}
             alt="Test"
