@@ -14,6 +14,8 @@ export const InventoryButton = ({ title }: propsTestComponent) => {
         className={
           "inline-block h-[33px] w-[12px] absolute top-[6px]  sm:h-[33px] sm:w-[12px] left-[-5px]"
         }
+        width={"12px"}
+        height={"33px"}
       />
       <Image
         src={"https://i.ibb.co/DY7CDQB/32x32-buildings-furnitures.png"}
@@ -21,6 +23,8 @@ export const InventoryButton = ({ title }: propsTestComponent) => {
         className={
           "inline-block h-[33px] w-[12px] absolute top-[6px] rotate-180 sm:h-[33px] sm:w-[12px] right-[-5px]"
         }
+        width={"12px"}
+        height={"33px"}
       />
 
       <button
