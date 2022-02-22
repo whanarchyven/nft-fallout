@@ -23,7 +23,7 @@ export const Popup = ({ item, handleClose }: propsTestComponent) => {
         >
           x
         </span>
-        <Image src={item.cloneImage} className={"w-1/4 inline-block"} />
+        <img src={item.cloneImage} className={"w-1/4 inline-block"} />
         <div className={"inline-block ml-[10%] align-top w-[65%]"}>
           <h2
             className={
