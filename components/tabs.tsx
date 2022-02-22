@@ -287,7 +287,7 @@ export const Tabs = () => {
           <div key={item.title}>
             <p
               className={
-                "text-fallout text font-bold uppercase text-center mt-[10px]"
+                "text-fallout sm:text-black text font-bold uppercase text-center mt-[10px]"
               }
             >
               {item.title}

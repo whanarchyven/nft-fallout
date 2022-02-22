@@ -12,7 +12,7 @@ export const PipBoy = () => {
   return (
     <div
       className={
-        "fixed mb-[100px] items-center bg-cover h-[100vh] bg-center bg-no-repeat bg-[url('../public/mobilekpk.png')] sm:bg-[url('../public/pipboy.png')] sm:fixed sm:items-center sm:bg-no-repeat sm:h-[660px] sm:w-[1000px] sm:bg-auto   "
+        "z-50 fixed sm:mb-[100px] items-center bg-cover h-[100vh] bg-center bg-no-repeat bg-[url('../public/mobilekpk.png')] sm:bg-[url('../public/pipboy.png')] sm:fixed sm:items-center sm:bg-no-repeat sm:h-[660px] sm:w-[1000px] sm:bg-auto   "
       }
     >
       <div
