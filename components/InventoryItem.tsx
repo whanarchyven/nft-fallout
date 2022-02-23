@@ -31,7 +31,9 @@ export const InventoryItem = ({ item }: propsTestComponent) => {
       }
     >
       <div className={"m-auto sm:max-h-118 w-4/5 max-h-[140px]  sm:w-1/2 "}>
-        <img src={item.cloneImage} className={"w-fit"}></img>
+        <div className={"w-fit"}>
+          <img src={item.cloneImage}></img>
+        </div>
       </div>
       <h2
         className={

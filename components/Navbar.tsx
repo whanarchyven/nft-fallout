@@ -18,11 +18,9 @@ export const Navbar = () => {
     <div className={"hidden sm:block"}>
       <div className="h-full w-full font-after h-[100px] bg-[#4A545E] fixed top-0 z-40">
         <div className={"h-full w-[20%] align-middle  inline-block"}>
-          <img
-            src={"https://i.ibb.co/bFYVWmp/Group-59.png"}
-            className={"pt-[7%] m-auto"}
-            alt="Test"
-          />
+          <div className={"h-full mx-[10%] w-[60%] relative"}>
+            <Image src={"/logoafter.svg"} alt="Test" layout={"fill"} />
+          </div>
         </div>
         <div className={"justify-around align-middle inline-flex w-[60%]  "}>
           <a
