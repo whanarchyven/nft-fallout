@@ -95,7 +95,7 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
         <link
-          href="../public/a_machinaorto.ttf"
+          href="../public/a_machinaOrto.woff"
           rel="stylesheet"
           type="text/css"
         />
