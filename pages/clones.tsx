@@ -95,14 +95,16 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
         <link
-          href="../public/a_machinaOrto.woff"
-          rel="stylesheet"
-          type="text/css"
+          rel="preload"
+          href="/fonts/a_machinaorto.ttf"
+          as="font"
+          crossOrigin=""
         />
         <link
-          href="../public/a_MachinaOrtoSht.ttf"
-          rel="stylesheet"
-          type="text/css"
+          rel="preload"
+          href="/fonts/a_MachinaOrtoSht.ttf"
+          as="font"
+          crossOrigin=""
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"

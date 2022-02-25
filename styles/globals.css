@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "a_MachinaOrto";
+    src: url("/public/fonts/a_machinaorto.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "a_MachinaOrtoSht";
+    src: url("/public/fonts/a_MachinaOrtoSht.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
