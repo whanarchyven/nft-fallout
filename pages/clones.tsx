@@ -95,12 +95,12 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
         <link
-          href="https://allfont.ru/allfont.css?fonts=a_machinaorto"
+          href="../public/a_machinaorto_%5Ballfont.ru%5D%20(1).ttf"
           rel="stylesheet"
           type="text/css"
         />
         <link
-          href="https://allfont.ru/allfont.css?fonts=a_machinaortosht"
+          href="../public/ofont.ru_a_MachinaOrtoSht%20(1).ttf"
           rel="stylesheet"
           type="text/css"
         />
