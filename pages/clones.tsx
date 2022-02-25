@@ -94,18 +94,7 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
         />
-        {/*<link*/}
-        {/*  rel="preload"*/}
-        {/*  href="/fonts/a_machinaorto.ttf"*/}
-        {/*  as="font"*/}
-        {/*  crossOrigin=""*/}
-        {/*/>*/}
-        {/*<link*/}
-        {/*  rel="preload"*/}
-        {/*  href="/fonts/a_MachinaOrtoSht.ttf"*/}
-        {/*  as="font"*/}
-        {/*  crossOrigin=""*/}
-        {/*/>*/}
+
         <link
           href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
