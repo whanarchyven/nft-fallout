@@ -93,13 +93,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"
-          href="../public/fonts/a_MachinaOrto/a_MachinaOrto.ttf"
+          href="/fonts/a_MachinaOrto/a_MachinaOrto.ttf"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="../public/fonts/a_MachinaOrto/a_MachinaOrto-bold.ttf"
+          href="/fonts/a_MachinaOrto/a_MachinaOrto-bold.ttf"
           as="font"
           crossOrigin=""
         />
