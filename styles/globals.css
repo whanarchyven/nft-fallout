@@ -4,15 +4,15 @@
 
 @font-face {
     font-family: "a_MachinaOrto";
-    src: url("/public/fonts/a_machinaorto.ttf");
+    src: url("../public/fonts/a_MachinaOrto/a_MachinaOrto.ttf");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
-    font-family: "a_MachinaOrtoSht";
-    src: url("/public/fonts/a_MachinaOrtoSht.ttf");
+    font-family: "a_MachinaOrto";
+    src: url("../public/fonts/a_MachinaOrto/a_MachinaOrto.ttf");
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-display: swap;
 }
